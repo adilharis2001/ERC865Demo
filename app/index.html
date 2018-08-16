@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ERC865Token - Truffle Webpack Demo w/ Frontend</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>ERC865</h1>
+  <h2>Example Truffle Dapp</h2>
+  <h3>Your Ethereum Address is <span class="black"><span id="address"></span></span></h3>
+  <h3>You have <span class="black"><span id="ethers"></span> Wei</span></h3>
+  <h3>You have <span class="black"><span id="balance"></span> ERC865 Tokens</span></h3>
+
+  <br>
+  <h1>Send ERC865</h1>
+  <br><label for="amount">Amount:</label><input type="text" id="amount" placeholder="e.g., 95"></input>
+  <br><label for="fee">Fee:</label><input type="text" id="fee" placeholder="e.g., 95"></input>
+  <br><label for="receiver">To Address:</label><input type="text" id="receiver" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><br><button id="sign" onclick="App.generateSign()">Signature</button><input type="text" id="signature"></input>
+  <br><br><center><button id="send" onclick="App.sendCoin()">Normal Transfer</button>
+  <button id="delegate" onclick="App.delegatedTransfer()">Delegated Transfer</button></center>
+  <br><br>
+  <span id="status"></span>
+  <br>
+  <span class="hint"><strong>Hint:</strong> open the browser developer console to view any errors and warnings.</span>
+</body>
+</html>

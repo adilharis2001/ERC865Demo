@@ -8,6 +8,7 @@ What things you need to install the software and how to install them
 
 1. Metamask (https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
 2. NodeJS (https://nodejs.org/en/)
+3. Ganache (https://truffleframework.com/ganache)
 3. Truffle Framework
 ```
 npm install -g truffle
@@ -15,18 +16,20 @@ npm install -g truffle
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+1. Extract the code to a project directory
+2. Run Ganache and ensure that the RPC port is up and running.
+   For the purpose of this demo, we assume Ganache is running your private Ethereum node on http://127.0.0.1:7545
+3. Open the file truffle.js, and make sure the host and port points to http://127.0.0.1 and 7545 respectively
+4. Connect truffle to your private Ethereum node run by Ganache
 ```
-Give the example
+truffle console --network dev
 ```
-
-And repeat
-
+5. Run the commands below in sequence
 ```
-until finished
+truffle(dev)> compile
+```
+```
+truffle(dev)> migrate
 ```
 
 End with an example of getting some data out of the system or using it for a little demo

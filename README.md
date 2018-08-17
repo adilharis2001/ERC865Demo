@@ -6,7 +6,7 @@ A demo which showcases the transfer of ERC 865 tokens using the metamask browser
 
 What things you need to install the software and how to install them
 
-1. Metamask (https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
+1. Metamask (https://metamask.io/)
 2. NodeJS (https://nodejs.org/en/)
 3. Ganache (https://truffleframework.com/ganache)
 3. Truffle Framework

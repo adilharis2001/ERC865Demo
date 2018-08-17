@@ -2,16 +2,15 @@
 
 A demo which showcases the transfer of ERC 865 tokens using the metamask browser extension and the truffle webpack demo
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
+1. Metamask (https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
+2. NodeJS (https://nodejs.org/en/)
+3. Truffle Framework
 ```
-Give examples
+npm install -g truffle
 ```
 
 ### Installing

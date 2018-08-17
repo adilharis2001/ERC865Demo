@@ -5,7 +5,7 @@ module.exports = {
   networks: {
     dev: {
       host: "127.0.0.1", // AWS rinkeby node
-      port: 9545, // AWS rinkeby node
+      port: 7545, // AWS rinkeby node
       network_id: "*"
     }
   }

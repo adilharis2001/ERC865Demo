@@ -14,76 +14,36 @@ What things you need to install the software and how to install them
 npm install -g truffle
 ```
 
-### Installing
+### Deployment
 
 1. Extract the code to a project directory
 2. Run Ganache and ensure that the RPC port is up and running.
    For the purpose of this demo, we assume Ganache is running your private Ethereum node on http://127.0.0.1:7545
-3. Open the file truffle.js, and make sure the host and port points to http://127.0.0.1 and 7545 respectively
-4. Connect truffle to your private Ethereum node run by Ganache
+3. Add your custom RPC in Metamask at http://127.0.0.1:7545
+4. Add your **first account on Ganache** onto Metamask, by exporting private key
+5. Open the file truffle.js, and make sure the host and port points to http://127.0.0.1 and 7545 respectively
+6. Connect truffle to your private Ethereum node run by Ganache
 ```
 truffle console --network dev
 ```
-5. Run the commands below in sequence
+7. Run the commands below in sequence
 ```
 truffle(dev)> compile
 ```
 ```
-truffle(dev)> migrate
+truffle(dev)> migrate --reset
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+8. Open another console window and start your server with the below command
 ```
-Give an example
+npm run dev
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+9. Follow the demo at https://youtu.be/dAbD3Vhdy6U for transfering tokens without ether
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Truffle Webpack](https://github.com/trufflesuite/truffle-init-webpack)
+* [Zeppelin Solidity](https://github.com/OpenZeppelin/openzeppelin-solidity/pull/741)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Adil Haris** - *Initial work* - [http://www.adilharis.com](https://github.com/adilharis2001)

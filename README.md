@@ -39,6 +39,16 @@ npm run dev
 ```
 9. Follow the demo at https://youtu.be/dAbD3Vhdy6U for transfering tokens without ether
 
+### Debugging
+
+Linux installations running into problems running the code should try removing the node modules folder and running a fresh install
+```
+rm -r node_modules
+```
+```
+npm install
+```
+
 ## Built With
 
 * [Truffle Webpack](https://github.com/trufflesuite/truffle-init-webpack)

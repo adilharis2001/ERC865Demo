@@ -41,7 +41,7 @@ npm run dev
 
 ### Debugging
 
-Linux installations running into problems running the code should try removing the node modules folder and running a fresh install
+If you run into problems running the code should try removing the node modules folder and running a fresh install
 ```
 rm -r node_modules
 ```

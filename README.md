@@ -48,6 +48,15 @@ rm -r node_modules
 ```
 npm install
 ```
+### Demo
+
+Follow the steps below if you want to skip all the hardship and head straight to a demo
+
+1. Add a custom RPC on Metamask and point to http://206.189.43.221:7545/
+2. Import the account with private key "0xac3c9576e1eb9c2a7c77b59009187dbfc27b571df1b28eb6d8f962f2d32020f8"
+3. Head over to http://206.189.43.221:8080/ and play around
+
+Kindly don't spam transactions, hack or bring the node down. Please.
 
 ## Built With
 

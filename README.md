@@ -54,7 +54,7 @@ Follow the steps below if you want to skip all the hardship and head straight to
 
 1. Head over to http://206.189.43.221:8080/ 
 2. Connect your metamask to Rinkeby and get some ether from the test faucet
-
+3. After getting hold of some test ether, hit the "Mint Token" button to receive 1000 ERC865 Token
 
 Kindly don't spam transactions, hack or bring the node down. Please.
 
@@ -65,4 +65,4 @@ Kindly don't spam transactions, hack or bring the node down. Please.
 
 ## Authors
 
-* **Adil Haris** - *Initial work* - [http://www.adilharis.com](https://github.com/adilharis2001)
+* **Adil Haris** - [http://www.adilharis.com](https://github.com/adilharis2001)

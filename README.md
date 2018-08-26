@@ -20,6 +20,8 @@ A delegated transfer (say using the transferPreSigned() method) would involve th
 3. In the backend code of your wallet, use web3.eth.sign() to generate a signature of the above hash with the user's account.
 4. This signature can be now passed to the delegate, along with the other parameters of the transaction and the corresponding method can be executed in the smart contract
 
+Note: The ERC865 contract used in this demo is not up to date. Kindly refer to the CoinvestV2 smart contract for a cleaner implementation - https://github.com/RobertMCForster/CoinvestV2Audit/blob/master/contracts/CoinvestTokenV2.sol
+
 ### Prerequisites
 
 What things you need to install the software and how to install them

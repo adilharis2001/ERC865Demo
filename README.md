@@ -1,6 +1,24 @@
-# An ERC865 Demo Implementation
+# An ERC865 Demo
 
 A demo which showcases the transfer of ERC 865 tokens using the metamask browser extension and the truffle webpack demo
+
+### Overview
+
+The ERC865 token standard adds a delegated version to each of the ERC20 methods (except those that result in state changes) to allow a delegate to execute the method on behalf of the token holder -
+1. transferPreSigned()
+2. approvePreSigned()
+3. increaseApprovalPreSigned()
+4. decreaseApprovalPreSigned()
+5. approveAndCallPreSigned()
+6. revokeSignaturePreSigned()
+
+Each of the above methods accepts a signature of type bytes in addition to the other parameters such as the receiving address, value to be sent, fee to the delegate and the nonce of the sender.
+
+A delegated transfer (say using the transferPreSigned() method) would involve the following steps - 
+1. In the wallet interface, gather user input for the receiving address, value, fee and nonce
+2. Create a hash of the above parameters using keccak256 in solidity or the getPreSignedHash() method which is usually built into the ERC865 contract
+3. In the backend code of your wallet, use web3.eth.sign() to generate a signature of the above hash with the user's account.
+4. This signature can be now passed to the delegate, along with the other parameters of the transaction and the corresponding method can be executed in the smart contract
 
 ### Prerequisites
 

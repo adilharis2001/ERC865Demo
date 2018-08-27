@@ -75,9 +75,9 @@ Follow the steps below if you want to skip all the hardship and head straight to
 1. Head over to http://delegation.adilharis.com:8080/
 2. Connect your metamask to Rinkeby and get some ether from the test faucet
 3. After getting hold of some test ether, hit the "Mint Token" button to receive 1000 ERC865 Token
-4. Refer here if you have queries on how to use this demo: https://youtu.be/dAbD3Vhdy6U
+4. Refer this video and its description if you have queries on how to use this demo: https://youtu.be/dAbD3Vhdy6U
 
-Kindly don't spam transactions, hack or bring the node down. Please.
+Kindly don't spam transactions, hack or bring my node down. Please.
 
 ## Built With
 

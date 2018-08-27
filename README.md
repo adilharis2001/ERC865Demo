@@ -72,9 +72,10 @@ npm install
 
 Follow the steps below if you want to skip all the hardship and head straight to a demo
 
-1. Head over to http://206.189.43.221:8080/ or http://delegation.adilharis.com:8080/
+1. Head over to http://delegation.adilharis.com:8080/
 2. Connect your metamask to Rinkeby and get some ether from the test faucet
 3. After getting hold of some test ether, hit the "Mint Token" button to receive 1000 ERC865 Token
+4. Refer here if you have queries on how to use this demo: https://youtu.be/dAbD3Vhdy6U
 
 Kindly don't spam transactions, hack or bring the node down. Please.
 

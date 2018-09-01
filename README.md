@@ -57,7 +57,7 @@ truffle(dev)> migrate --reset
 ```
 npm run dev
 ```
-9. Follow the demo at https://youtu.be/dAbD3Vhdy6U for transfering tokens without ether
+9. Follow the demo at https://youtu.be/3e_P5OdMMdM for transfering tokens without ether
 
 ### Debugging
 
